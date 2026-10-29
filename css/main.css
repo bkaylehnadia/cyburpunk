@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-image: url(../images/image14.jpg);
+    background-position: top center;
+    position: center;
+    padding-right: 230px;
+}
+
+.site {
+    width: 1000px;
+    height: auto;
+    margin: 10px auto 10px auto;
+}
+
+
+header {
+    height: 245px;
+}
+
+.headerimg {
+ padding-top: 60px;
+}
+
+.navimg {
+    position: absolute;
+    padding-top: 70px;
+}
+
+a {
+    color: #58bab9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 205px;
+}
+
+nav {
+    height:40px;
+    width:auto;
+    
+}
+
+nav a {
+background-color: black;
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+float: left;
+width: 130px;
+height:60px;
+text-align: center;
+padding-top: 10px;
+}
+
+.featuredsection {
+    height: 320px;  
+    padding-bottom: 8px;
+}
+
+.featuredsection img {
+    width: 100%;
+}
+
+main {
+    height: 980px;
+    background-color: black;
+}
+
+.imagecontainer {
+    margin: 8px 163px 10px 160px;
+    width: 522px;
+    height:202px;
+}
+
+.imagecontainer img {
+    padding-left:50px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #58bab9;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:#f8f102 ;
+    text-align: center;
+}
+
+table {
+    font-family: 'Courier New', Courier, monospace;
+    color:#f8f102 ;
+    text-align: center;
+    font-size: larger;
+}
+
+table, td {
+    border: 1px solid #58bab9;
+    border-collapse: collapse;
+    font-size: x-large;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    height: 750px;
+    background-color: black;
+    text-align: center;
+}
+
+iframe {
+
+}
+
+.images {
+    height:380px;
+    width:380px;
+    margin: 0 auto 0 auto;
+}
+
+.images img {
+    margin: 5px;
+}
+
+footer {
+    height: 100px;
+    line-height: 50px;
+    background-color:black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobile: */
+  
+    body {
+        position: center;
+    }
+
+    header {
+        height: 130px;
+    }
+
+    .headerimg img {
+        position: relative;
+        bottom: 90px;
+    }
+
+    .navimg img{
+        position: absolute;
+        width: 100px;
+        right: 600px;
+        top: 7px;
+    }
+
+    nav a {
+        font-size: 20px;
+        width: 100px;
+        background-color: black;
+        color: #58bab9;
+        position: absolute;
+    }
+
+    p {
+        font-size: 15px;
+	}
+
+    h1 {
+        font-size: 25px;
+    }
+    table, td {
+        font-size: 15px;
+    }
+    main {
+        width: 400px;
+        height:fit-content
+    }
+
+    .imagecontainer img {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        right: 30px;
+    }
+
+    .featuredsection {
+        width: 650px;
+        height: 160px;
+    }
+    aside {
+        width: 400px;
+        position: absolute;
+        left: 120px;
+        top: 1130px
+    }
+    footer {
+        width: 650px;
+        position: absolute;
+        top: 1900px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    /* For tablets: */
+    body {
+        position: center;
+    }
+  
+  	 header {
+        height: 130px;
+        padding-bottom: 35px;
+    }
+    .headerimg img {
+        width: 600px;
+        position: relative;
+    }
+    .navimg img{
+        width: 220px;
+        position: relative;
+        bottom: 60px;
+        padding-top: 10px;
+        padding-right: 100px;
+    }
+
+    .featuredsection {
+        height: fit-content;
+    }
+
+    nav a {
+        font-size: 30px;
+        background-color: black;
+        color: #58bab9;
+        position: relative;
+        right: 50px;
+        bottom: 100px;
+    }
+    
+    main {
+        width: 650px;
+        height: fit-content;
+		}
+        
+    .imagecontainer img {
+        width: 350px;
+        position: relative;
+        right: 60px;
+    }
+
+    aside {
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+
+    h1 {
+     font-size:30px;
+    }
+
+    p {
+     font-size: 15px;
+    }
+
+    table, td {
+        font-size: 15px;
+    }
+}
